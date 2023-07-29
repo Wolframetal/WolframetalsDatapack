@@ -1,0 +1,34 @@
+{
+    "display": {
+        "title": {
+            "text": "Полублок",
+            "color": "gold",
+            "bold": false
+        },
+        "description": {
+            "text": "Поставьте полублок в этот мир",
+            "bold": false
+        },
+        "icon": {
+            "item": "minecraft:cobblestone_slab"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false,
+        "background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
+    },
+    "criteria": {
+		"placed_block": {
+			"trigger": "minecraft:placed_block"
+		}
+	},
+    "requirements": [
+        [
+            "placed_block"
+        ]
+    ],
+    "rewards": {
+
+    }
+}

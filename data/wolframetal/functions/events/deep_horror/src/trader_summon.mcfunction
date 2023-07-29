@@ -1,0 +1,3 @@
+title @a subtitle "Торговец из Глубин был призван"
+title @a title ""
+summon wandering_trader ~ ~ ~ {Invulnerable:1b,CustomNameVisible:1b,PersistenceRequired:1b,CustomName:'{"text":"Торговец из Глубин","bold":true}',Offers:{Recipes:[{maxUses:2147483647,buy:{id:"minecraft:diamond",Count:16b},sell:{id:"minecraft:enchanted_book",Count:1b,tag:{StoredEnchantments:[{id:"minecraft:swift_sneak",lvl:1s}]}}}]}}

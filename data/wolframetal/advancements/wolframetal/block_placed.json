@@ -1,0 +1,46 @@
+{
+    "display": {
+        "title": {
+            "text": "Блок",
+            "color": "gold",
+            "bold": false
+        },
+        "description": {
+            "text": "Поставьте блок в этот мир",
+            "bold": false
+        },
+        "icon": {
+            "item": "minecraft:cobblestone"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": true,
+        "background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
+    },
+    "criteria": {
+		"placed_block": {
+			"trigger": "minecraft:placed_block",
+            "conditions": {
+				"location": [
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"block": {
+
+							}
+						}
+					}
+				]
+			}
+		}
+	},
+    "requirements": [
+        [
+            "placed_block"
+        ]
+    ],
+    "rewards": {
+        "function": "wolframetal:events/block_it_out/main"
+    }
+}

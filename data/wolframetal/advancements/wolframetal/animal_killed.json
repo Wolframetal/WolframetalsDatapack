@@ -1,0 +1,75 @@
+{
+    "display": {
+        "title": {
+            "text": "Убить животное",
+            "color": "gold",
+            "bold": false
+        },
+        "description": {
+            "text": "убейте животное",
+            "bold": false
+        },
+        "icon": {
+            "item": "minecraft:iron_axe"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": true,
+        "background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
+    },
+    "criteria": {
+        "minecraft:pig": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "pig"
+                }
+            }
+        },
+        "minecraft:cow": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "cow"
+                }
+            }
+        },
+        "minecraft:chicken": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "chicken"
+                }
+            }
+        },
+        "minecraft:sheep": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "sheep"
+                }
+            }
+        },
+        "minecraft:horse": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "horse"
+                }
+            }
+        }
+	},
+    "requirements": [
+        [
+            "minecraft:pig",
+            "minecraft:cow",
+            "minecraft:sheep",
+            "minecraft:chicken",
+            "minecraft:horse"
+        ]
+    ],
+    "rewards": {
+        "function": "wolframetal:events/animal_butchery/src/kill_count"
+    }
+}

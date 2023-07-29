@@ -1,0 +1,1 @@
+execute as @a run effect give @s minecraft:darkness 16 1 true

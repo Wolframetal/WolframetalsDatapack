@@ -1,0 +1,5 @@
+scoreboard objectives remove kill_count_all_animals
+scoreboard objectives remove timer_kill_count_all_animals
+scoreboard objectives setdisplay sidebar
+scoreboard objectives setdisplay belowName
+schedule clear wolframetal:events/animal_butchery/loop

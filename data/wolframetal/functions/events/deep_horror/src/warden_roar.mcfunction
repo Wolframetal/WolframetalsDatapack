@@ -1,0 +1,1 @@
+execute as @a at @s run playsound minecraft:entity.warden.roar master @s ~ ~ ~ 1000
