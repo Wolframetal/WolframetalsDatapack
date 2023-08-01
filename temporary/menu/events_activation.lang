@@ -1,0 +1,36 @@
+#Удобный формат
+tellraw @s [
+{"color":"yellow", "text":"Меню Активации Ивентов:"},
+"\n1. ",
+{"color":"aqua", "text":"[Начать Ужас глубин]",
+"clickEvent":
+{"action":"run_command","value":"/function wolframetal:events/deep_horror/startup"},
+"hoverEvent":
+{"action":"show_text","contents":"Ивент запускающий распространение скалка каждый час глубоко под ногами игроков"}
+},
+"\n2. ",
+{"color":"aqua", "text":"[Начать Блоки в мир]",
+"clickEvent":
+{"action":"run_command","value":"/function wolframetal:events/block_it_out/startup"},
+"hoverEvent":
+{"action":"show_text","contents":"Ивент запускающий подсчет поставленных блоков игроками"}
+},
+"\n3. ",
+{"color":"aqua", "text":"[Начать Полублоки в мир]",
+"clickEvent":
+{"action":"run_command","value":"/function wolframetal:events/slab_it_out/startup"},
+"hoverEvent":
+{"action":"show_text","contents":"Ивент запускающий подсчет поставленных полублоков игроками"}
+},
+"\n4. ",
+{"color":"aqua", "text":"[Начать Животную Резню]",
+"clickEvent":
+{"action":"run_command","value":"/function wolframetal:events/animal_butchery/startup"},
+"hoverEvent":
+{"action":"show_text","contents":"Ивент на время по убийству животных, имеет награду за лидерство"}
+}
+]
+
+
+#Форматированная mcfunction команда
+tellraw @s [{"text":"Активация ивентов:"},"\n1. ",{"color":"aqua", "text":"[Начать Ужас глубин]","clickEvent":{"action":"run_command","value":"/function wolframetal:events/deep_horror/startup"},"hoverEvent":{"action":"show_text","contents":"Ивент запускающий распространение скалка каждый час глубоко под ногами игроков"}},"\n2. ",{"color":"aqua", "text":"[Начать Блоки в мир]","clickEvent":{"action":"run_command","value":"/function wolframetal:events/block_it_out/startup"},"hoverEvent":{"action":"show_text","contents":"Ивент запускающий подсчет поставленных блоков игроками"}},"\n3. ",{"color":"aqua", "text":"[Начать Полублоки в мир]","clickEvent":{"action":"run_command","value":"/function wolframetal:events/slab_it_out/startup"},"hoverEvent":{"action":"show_text","contents":"Ивент запускающий подсчет поставленных полублоков игроками"}},"\n4. ",{"color":"aqua", "text":"[Начать Животная Резня]","clickEvent":{"action":"run_command","value":"/function wolframetal:events/animal_butchery/startup"},"hoverEvent":{"action":"show_text","contents":"Ивент на время по убийству животных, имеет награду за лидерство"}}]
