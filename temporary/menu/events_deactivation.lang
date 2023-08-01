@@ -1,0 +1,41 @@
+#Удобный формат
+tellraw @s [
+{"color":"yellow", "text":"Меню Выключения Ивентов:"},
+"\n1. ",
+{"color":"aqua", "text":"[Завершить Все Ивенты]",
+"clickEvent":
+{"action":"run_command","value":"/function wolframetal:events/shutdown_all"}
+},
+"\n2. ",
+{"color":"aqua", "text":"[Завершить Ужас глубин]",
+"clickEvent":
+{"action":"run_command","value":"/function wolframetal:events/deep_horror/shutdown"},
+"hoverEvent":
+{"action":"show_text","contents":"Ивент запускающий распространение скалка каждый час глубоко под ногами игроков"}
+},
+"\n3. ",
+{"color":"aqua", "text":"[Завершить Блоки в мир]",
+"clickEvent":
+{"action":"run_command","value":"/function wolframetal:events/block_it_out/shutdown"},
+"hoverEvent":
+{"action":"show_text","contents":"Ивент запускающий подсчет поставленных блоков игроками"}
+},
+"\n4. ",
+{"color":"aqua", "text":"[Завершить Полублоки в мир]",
+"clickEvent":
+{"action":"run_command","value":"/function wolframetal:events/slab_it_out/shutdown"},
+"hoverEvent":
+{"action":"show_text","contents":"Ивент запускающий подсчет поставленных полублоков игроками"}
+},
+"\n5. ",
+{"color":"aqua", "text":"[Завершить Животную Резню]",
+"clickEvent":
+{"action":"run_command","value":"/function wolframetal:events/animal_butchery/shutdown"},
+"hoverEvent":
+{"action":"show_text","contents":"Ивент на время по убийству животных, имеет награду за лидерство"}
+}
+]
+
+
+#Форматированная mcfunction команда
+tellraw @s [{"color":"yellow", "text":"Меню Выключения Ивентов:"},"\n1. ",{"color":"aqua", "text":"[Завершить Все Ивенты]","clickEvent":{"action":"run_command","value":"/function wolframetal:events/shutdown_all"}},"\n2. ",{"color":"aqua", "text":"[Завершить Ужас глубин]","clickEvent":{"action":"run_command","value":"/function wolframetal:events/deep_horror/shutdown"},"hoverEvent":{"action":"show_text","contents":"Ивент запускающий распространение скалка каждый час глубоко под ногами игроков"}},"\n3. ",{"color":"aqua", "text":"[Завершить Блоки в мир]","clickEvent":{"action":"run_command","value":"/function wolframetal:events/block_it_out/shutdown"},"hoverEvent":{"action":"show_text","contents":"Ивент запускающий подсчет поставленных блоков игроками"}},"\n4. ",{"color":"aqua", "text":"[Завершить Полублоки в мир]","clickEvent":{"action":"run_command","value":"/function wolframetal:events/slab_it_out/shutdown"},"hoverEvent":{"action":"show_text","contents":"Ивент запускающий подсчет поставленных полублоков игроками"}},"\n5. ",{"color":"aqua", "text":"[Завершить Животную Резню]","clickEvent":{"action":"run_command","value":"/function wolframetal:events/animal_butchery/shutdown"},"hoverEvent":{"action":"show_text","contents":"Ивент на время по убийству животных, имеет награду за лидерство"}}]

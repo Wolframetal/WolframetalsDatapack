@@ -58,6 +58,222 @@
                     "type": "horse"
                 }
             }
+        },
+        "minecraft:frog": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "frog"
+                }
+            }
+        },
+        "minecraft:axolotl": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "axolotl"
+                }
+            }
+        },
+        "minecraft:allay": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "allay"
+                }
+            }
+        },
+        "minecraft:bat": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "bat"
+                }
+            }
+        },
+        "minecraft:cod": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "cod"
+                }
+            }
+        },
+        "minecraft:dolphin": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "dolphin"
+                }
+            }
+        },
+        "minecraft:donkey": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "donkey"
+                }
+            }
+        },
+        "minecraft:fox": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "fox"
+                }
+            }
+        },
+        "minecraft:squid": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "squid"
+                }
+            }
+        },
+        "minecraft:glow_squid": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "glow_squid"
+                }
+            }
+        },
+        "minecraft:goat": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "goat"
+                }
+            }
+        },
+        "minecraft:llama": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "llama"
+                }
+            }
+        },
+        "minecraft:mooshroom": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "mooshroom"
+                }
+            }
+        },
+        "minecraft:mule": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "mule"
+                }
+            }
+        },
+        "minecraft:ocelot": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "ocelot"
+                }
+            }
+        },
+        "minecraft:panda": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "panda"
+                }
+            }
+        },
+        "minecraft:parrot": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "parrot"
+                }
+            }
+        },
+        "minecraft:polar_bear": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "polar_bear"
+                }
+            }
+        },
+        "minecraft:pufferfish": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "pufferfish"
+                }
+            }
+        },
+        "minecraft:rabbit": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "rabbit"
+                }
+            }
+        },
+        "minecraft:salmon": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "salmon"
+                }
+            }
+        },
+        "minecraft:sniffer": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "sniffer"
+                }
+            }
+        },
+        "minecraft:tadpole": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "tadpole"
+                }
+            }
+        },
+        "minecraft:turtle": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "turtle"
+                }
+            }
+        },
+        "minecraft:tropical_fish": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "tropical_fish"
+                }
+            }
+        },
+        "minecraft:wolf": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "wolf"
+                }
+            }
+        },
+        "minecraft:strider": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "strider"
+                }
+            }
         }
 	},
     "requirements": [
@@ -66,7 +282,34 @@
             "minecraft:cow",
             "minecraft:sheep",
             "minecraft:chicken",
-            "minecraft:horse"
+            "minecraft:horse",
+            "minecraft:frog",
+            "minecraft:axolotl",
+            "minecraft:allay",
+            "minecraft:bat",
+            "minecraft:cod",
+            "minecraft:dolphin",
+            "minecraft:donkey",
+            "minecraft:fox",
+            "minecraft:squid",
+            "minecraft:glow_squid",
+            "minecraft:goat",
+            "minecraft:llama",
+            "minecraft:mooshroom",
+            "minecraft:mule",
+            "minecraft:ocelot",
+            "minecraft:panda",
+            "minecraft:parrot",
+            "minecraft:polar_bear",
+            "minecraft:pufferfish",
+            "minecraft:rabbit",
+            "minecraft:salmon",
+            "minecraft:sniffer",
+            "minecraft:tadpole",
+            "minecraft:turtle",
+            "minecraft:tropical_fish",
+            "minecraft:wolf",
+            "minecraft:strider"
         ]
     ],
     "rewards": {

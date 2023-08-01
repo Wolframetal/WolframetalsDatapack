@@ -1,0 +1,5 @@
+tellraw @a [
+{"color": "yellow", "text": "Wolframetal's server datapack v1.4\n"},
+{"color": "white", "text": "Успешно загружен!\n"},
+{"color": "white", "text": "Приятного использования :)"}
+]

@@ -1,0 +1,4 @@
+#звук при активации
+playsound minecraft:ui.cartography_table.take_result master @s ~ ~ ~ 1000
+
+tellraw @s ["",{"color":"yellow", "text":"Меню команд:"},"\n1. ",{"color":"aqua", "text":"[Активация ивентов]","clickEvent":{"action":"run_command","value":"/function wolframetal:menu/events_activation"},"hoverEvent":{"action":"show_text","contents":"Меню быстрой активации ивентов"}},"\n2. ",{"color":"aqua", "text":"[Выключение ивентов]","clickEvent":{"action":"run_command","value":"/function wolframetal:menu/events_deactivation"},"hoverEvent":{"action":"show_text","contents":"Меню выключения ивентов"}},"\n3. ",{"color":"aqua", "text":"[Дополнительные команды]","clickEvent":{"action":"run_command","value":"/function wolframetal:menu/commands"},"hoverEvent":{"action":"show_text","contents":"Меню доп. команд"}}]

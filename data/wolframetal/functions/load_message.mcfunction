@@ -1,0 +1,1 @@
+tellraw @a ["",{"translate":"Wolframetal's server datapack v1.5\n","color": "yellow"},{"color": "green","translate": "Успешно загружен!\n"},{"translate": "Приятного использования :)","color": "white"}]

@@ -1,0 +1,14 @@
+#звук при активации
+playsound minecraft:ui.cartography_table.take_result master @s ~ ~ ~ 1000
+
+#само сообщение
+tellraw @s [
+"",
+{"color": "white", "text": "Датапак имеет в себе ивенты, команды и дополнения рецептов\n"},
+#мне стало лень, тут должна была быть ссылка на команду.
+{"color": "white", "text": "Для доступа к меню команд\n"},
+{"color": "white", "text": "\n"},
+{"color": "white", "text": "\n"},
+{"color": "white", "text": "\n"}
+]
+#убийца гоблинов убивать минизомби
